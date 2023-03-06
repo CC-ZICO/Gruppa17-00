@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+/* header start */
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header__list {
+    display: flex;
+    gap: 24px;
+}
+
+.header__logo {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.header__link {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+/* header end */
