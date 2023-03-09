@@ -22,26 +22,47 @@ ul {
 
 /* header start */
 
+.header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: dodgerblue;
+}
+
 .header__nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .header__list {
     display: flex;
     gap: 24px;
+    flex-wrap: wrap;
 }
 
 .header__logo {
     font-size: 36px;
     text-transform: uppercase;
+    color: #fff;
 }
 
 .header__link {
     font-size: 20px;
     text-transform: capitalize;
+    color: #fff;
+}
+
+h1 {
+    flex-grow: 1;
+    display: grid;
+    place-items: center;
+    font-size: 6vw;
+    color: #fff;
+    text-transform: uppercase;
 }
 
 /* header end */
